@@ -4,11 +4,8 @@
 Push_Swap is a sorting algorithm project that sorts a stack of integers using a limited set of operations. The goal is to sort the numbers in ascending order with the fewest possible operations.
 
 ## Installation
-1. Clone the repository:
-```git clone https://github.com/your-username/push_swap.git && cd push_swap```
-
-2. Compile the program:
-make
+1. Clone the repository and compile the code:
+```git clone https://github.com/your-username/push_swap.git && cd push_swap && make lib && make```
 
 ## Usage
 ### Basic Usage
