@@ -5,33 +5,28 @@ Push_Swap is a sorting algorithm project that sorts a stack of integers using a 
 
 ## Installation
 1. Clone the repository and compile the code:
-```git clone https://github.com/your-username/push_swap.git && cd push_swap && make lib && make```
+```git clone https://github.com/your-username/push_swap.git && cd push_swap```
+```make lib && make```
 
 ## Usage
 ### Basic Usage
-./push_swap [list of integers]
+```./push_swap [list of integers]```
 
 Example:
-./push_swap 3 1 4 2 5
+```./push_swap 3 1 4 2 5```
 
 ### With String Input
 You can also pass numbers as a single string:
-./push_swap "3 1 4 2 5"
+```./push_swap "3 1 4 2 5"```
 
 ### Using the Checker
 To verify that your sorting is correct, use the provided checker program (checker_linux):
-./push_swap [numbers] | ./checker_linux [numbers]
+```./push_swap [numbers] | ./checker_linux [numbers]```
 
 Example:
-./push_swap 3 1 4 2 5 | ./checker_linux 3 1 4 2 5
+```$ARG="3 1 2 6 -23"; ./push_swap $ARG | ./checker_linux $ARG```
 
 If the checker outputs "OK", your sorting was successful.
-
-## Features
-- Sorts small stacks (3 or 5 numbers) with optimized algorithms
-- Handles larger stacks (100+ numbers) using radix sort
-- Input validation for numbers and duplicates
-- Visual feedback for operations performed
 
 ## Makefile Commands
 - `make` - Compile the program
