@@ -6,7 +6,7 @@ Push_Swap is a sorting algorithm project that sorts a stack of integers using a 
 ## Installation
 1. Clone the repository and compile the code:
 
-  ```git clone https://github.com/your-username/push_swap.git && cd push_swap```
+  ```git clone git@github.com:zeromeia0/push_swap.git && cd push_swap```
   
   ```make lib && make```
 
